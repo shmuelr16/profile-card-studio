@@ -1,0 +1,40 @@
+{
+  "_comment": "Example with invented data. Copy, fill in, then: build.py config.json out/",
+  "lang": "he",
+  "dir": "rtl",
+  "name": "נועה כהן",
+  "title": "Full-Stack Vibe-Coder",
+  "brand": "NovaLab",
+  "brand_split": 4,
+  "bar_path": "founder",
+  "prompt": "hello, world",
+  "tools": ["Claude Code", "Next.js", "Supabase", "Vercel", "GitHub"],
+  "roles": [
+    {"kicker": "מייסדת ומנכ״לית", "name": "NovaLab", "desc": "סטארטאפ של כלי AI בעברית"},
+    {"kicker": "יוצרת", "name": "שורה אחת", "desc": "ניוזלטר שבועי על כלים חכמים"}
+  ],
+  "sections": [
+    {"title": "מוצרים", "items": ["צ'אטבוט בעברית", "Notes AI", "מחולל מצגות"]},
+    {"title": "אתרים ומדריכים", "items": ["מדריך פרומפטים", "קורס בסיסי ל-Git"]},
+    {"title": "משחקים", "items": ["משחק זיכרון", "חידון טכנולוגיה"]}
+  ],
+  "tagline": "בונה מוצרים מקצה לקצה עם AI",
+  "tagline_highlight": "מקצה לקצה",
+  "short_lang": "en",
+  "short_dir": "ltr",
+  "name_short": "Noa Cohen",
+  "title_short": "Full-Stack Vibe-Coder",
+  "roles_short": [
+    {"kicker": "FOUNDER & CEO", "name": "NovaLab", "desc": "An AI startup building Hebrew-first tools"},
+    {"kicker": "CREATOR", "name": "Shura Achat", "desc": "A weekly newsletter on smart tools"}
+  ],
+  "tagline_short": "Building products end to end with AI",
+  "tagline_short_highlight": "end to end",
+  "link": "novalab.example.com",
+  "photo_cut": "cut.png",
+  "theme": {
+    "bg": "#060B09", "card": "#0C1512", "line": "#16302A", "muted": "#8FA89E",
+    "text": "#EAF5EF", "accent": "#3EFFA3",
+    "display_font": "Suez One", "body_font": "Heebo", "mono_font": "JetBrains Mono", "name_font": "Heebo"
+  }
+}

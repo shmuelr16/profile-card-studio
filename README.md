@@ -21,33 +21,13 @@
 - **שם שלא מכסה את הפנים:** הגודל שלו מותאם אוטומטית.
 - **בדיקות אוטומטיות:** חריגה מהרוחב, שם על הפנים, תוכן שעובר את הפוטר. בנוסף נוצרים חיתוכי תקריב לבדיקה בעין.
 
-### התקנה
-
-**ב-Claude Code** (מחשב או ענן):
-```bash
-git clone https://github.com/shmuelr16/profile-card-studio ~/.claude/skills/profile-card-studio
-pip install --break-system-packages rembg pymatting opencv-python-headless pillow playwright
-```
-רוצים את הסקיל רק בפרויקט אחד? משכפלים ל-`.claude/skills/profile-card-studio` בתוך הפרויקט במקום ל-`~/.claude/skills`.
-
-**ב-Claude.ai או באפליקציה:**
-1. מורידים את הריפו כ-ZIP (‏Code ← Download ZIP), או מריצים:
-   ```bash
-   git clone https://github.com/shmuelr16/profile-card-studio
-   zip -r profile-card-studio.zip profile-card-studio -x "*.git*"
-   ```
-2. נכנסים ל-Settings ← Capabilities ← Skills (צריך שהרצת קוד תהיה מופעלת).
-3. לוחצים Upload skill ובוחרים את קובץ ה-ZIP.
-
-### לעצלנים: פשוט מדביקים את זה ל-Claude
-ב-Claude Code, מדביקים את הפרומט הזה והוא יעשה הכל לבד:
+### התקנה: פשוט מדביקים פרומט
+לא צריך להוריד או לשכפל כלום. נכנסים ל-Claude (באפליקציה או ב-Claude Code) ומדביקים:
 ```text
-תתקין לי את הסקיל מ-https://github.com/shmuelr16/profile-card-studio:
-תשכפל אותו ל-~/.claude/skills/profile-card-studio, תתקין את כל התלויות
-שמופיעות ב-README, ותוודא שהסקריפטים רצים.
-אחרי זה תשתמש בסקיל ותכין לי תמונת פרופיל. התמונה שלי מצורפת.
+תוסיף לי את הסקיל מ-https://github.com/shmuelr16/profile-card-studio
+לסקילים שלי, כדי שאוכל להשתמש בו גם בשיחות הבאות.
 ```
-ואחרי שהסקיל מותקן, מספיק לכתוב:
+מאשרים אם Claude מבקש, וזהו. אחרי זה מספיק לכתוב:
 ```text
 תכין לי תמונת פרופיל לינקדאין עם הסקיל profile-card-studio. התמונה שלי מצורפת.
 ```
@@ -90,33 +70,13 @@ python3 scripts/render.py out                 # full.png, short.png ודוח ב�
 - **The name never covers the face:** its size is fitted automatically.
 - **Automatic checks:** horizontal overflow, name over the face, and content past the footer. Close-up crops are also written for a visual review.
 
-### Install
-
-**Claude Code** (local or cloud):
-```bash
-git clone https://github.com/shmuelr16/profile-card-studio ~/.claude/skills/profile-card-studio
-pip install --break-system-packages rembg pymatting opencv-python-headless pillow playwright
-```
-Want it in one project only? Clone into `.claude/skills/profile-card-studio` inside that project instead of `~/.claude/skills`.
-
-**Claude.ai / desktop app:**
-1. Download the repo as a ZIP (Code → Download ZIP), or run:
-   ```bash
-   git clone https://github.com/shmuelr16/profile-card-studio
-   zip -r profile-card-studio.zip profile-card-studio -x "*.git*"
-   ```
-2. Open Settings → Capabilities → Skills (code execution must be on).
-3. Click Upload skill and pick the ZIP.
-
-### Lazy mode: just paste this to Claude
-In Claude Code, paste this prompt and it does everything for you:
+### Install: just paste a prompt
+Nothing to download or clone. Open Claude (the app or Claude Code) and paste:
 ```text
-Install the skill from https://github.com/shmuelr16/profile-card-studio:
-clone it into ~/.claude/skills/profile-card-studio, install every dependency
-listed in the README, and check that the scripts run.
-Then use the skill to make my profile card. My photo is attached.
+Add the skill from https://github.com/shmuelr16/profile-card-studio
+to my skills so I can use it in future chats too.
 ```
-Once it's installed, this is enough:
+Approve if Claude asks, and you're done. After that, this is enough:
 ```text
 Make me a LinkedIn profile card with the profile-card-studio skill. My photo is attached.
 ```
